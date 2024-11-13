@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de HTML y CSS</title>
+    <style>
+        /* Estilos para la Tarjeta de Perfil */
+        .tarjeta {
+            width: 300px;
+            min-height: 150px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .tarjeta h2 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .tarjeta p {
+            font-size: 14px;
+            color: #888;
+            margin: 10px 0;
+        }
+
+        .tarjeta button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .tarjeta button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos para el Artículo con Imagen y Texto */
+        .articulo {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+        }
+
+        .articulo img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .contenido {
+            padding: 10px;
+        }
+
+        .contenido h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .contenido p {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .leer-mas {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .leer-mas:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tarjeta de Perfil -->
+    <div class="tarjeta">
+        <h2>Juan Pérez</h2>
+        <p>Desarrollador web apasionado por la tecnología y el diseño creativo.</p>
+        <button>Contactar</button>
+    </div>
+
+    <!-- Artículo con Imagen y Texto -->
+    <div class="articulo">
+        <img src="https://via.placeholder.com/400x200" alt="Imagen de artículo">
+        <div class="contenido">
+            <h2>Título del Artículo</h2>
+            <p>Este es un breve resumen del artículo. Aquí se puede dar una introducción sobre el contenido que se desarrollará a continuación.</p>
+            <a href="#" class="leer-mas">Leer más...</a>
+        </div>
+    </div>
+</body>
+</html>
